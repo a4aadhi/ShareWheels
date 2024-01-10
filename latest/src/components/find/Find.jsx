@@ -42,7 +42,7 @@ const Find = () => {
             // when window width is >= 1040px
             1040: {
               width: 1040,
-              slidesPerView: 5,
+              slidesPerView: 6,
             },
           }}
             pagination={{ clickable: true }}

@@ -7,12 +7,13 @@ import {
     AiOutlineClose,
   } from 'react-icons/ai';
   
-import Logo from '../../images/logo.png'
+import Logo from '../../images/logosharewheels.png'
 const Navbar = () => {
     const[nav,setNav]=useState(false)
   return (
     <header className={styles.navbar}>
-        <img src={Logo} alt="/" />
+        <img className={styles.logo} src={Logo} alt="/" />
+        <h1 className={styles.name}>ShareWheels</h1>
         
         <nav>
             <ul className={nav ? [styles.menu,styles.active].join(' ') : [styles.menu]}>

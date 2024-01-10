@@ -24,6 +24,20 @@
   .mobile_btn {
     display: none;
   }
+  .logo{
+    width: 10%;
+    height: 70px;
+    background-color: #121214;
+
+}
+.name{
+  font-family: 'Arial', sans-serif;
+  font-size: 2em;
+  color: #000;
+  text-align: center;
+  letter-spacing: 2px;
+
+}
   
   @media screen and (max-width: 720px) {
     .mobile_btn {
@@ -57,4 +71,9 @@
     .navbar a {
       font-size: 2rem;
     }
+    .logo{
+      display: none;
+  
+  }
+    
   }
